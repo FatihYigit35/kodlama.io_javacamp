@@ -2,6 +2,8 @@ package datatypes;
 
 public class Main {
 
+	@SuppressWarnings("unused")
+	
 	public static void main(String[] args) {
 		
 		int sayi1 = 12;
