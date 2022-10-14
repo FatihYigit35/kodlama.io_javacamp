@@ -15,10 +15,10 @@ public class MultiDimensionalArrayDemo {
 		sehirler[2][2] = "Gaziantep";
 
 		for (int i = 0; i <= 2; i++) {
-			System.out.println("---------------------");
 			for (int j = 0; j <= 2; j++) {
 				System.out.println(sehirler[i][j]);
 			}
+			System.out.println("---------------------");
 		}
 
 	}
