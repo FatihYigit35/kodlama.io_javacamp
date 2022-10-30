@@ -44,7 +44,7 @@ public class InMemoryLanguageRepository implements LanguageRepository {
 			throw new Exception("Programlama dili boş olamaz");
 		}
 		if(language.getId()<=0) {
-			throw new Exception("ID sıfırdan büyük olmaladır");
+			throw new Exception("ID sıfırdan büyük olmalıdır");
 		}
 		for (int i = 0; i < this.languages.size(); i++) {
 			if (languages.get(i).getLanguageName().equals(language.getLanguageName())) {
@@ -65,7 +65,7 @@ public class InMemoryLanguageRepository implements LanguageRepository {
 			throw new Exception("Programlama dili boş olamaz");
 		}
 		if(language.getId()<=0) {
-			throw new Exception("ID sıfırdan büyük olmaladır");
+			throw new Exception("ID sıfırdan büyük olmalıdır");
 		}
 		for (int i = 0; i < this.languages.size(); i++) {
 			if (languages.get(i).getLanguageName().equals(language.getLanguageName())) {
