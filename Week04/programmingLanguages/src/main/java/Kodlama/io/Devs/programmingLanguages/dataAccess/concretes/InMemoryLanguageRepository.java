@@ -32,7 +32,7 @@ public class InMemoryLanguageRepository implements LanguageRepository {
 
 			if (languages.get(i).getId() == id) {
 				return languages.get(i);
-				
+
 			}
 		}
 		throw new Exception("ID bulunamadı");
@@ -40,6 +40,12 @@ public class InMemoryLanguageRepository implements LanguageRepository {
 
 	@Override
 	public void add(Language language) throws Exception {
+		if(language.getLanguageName().equals("")||language.getLanguageName().equals(null)) {
+			throw new Exception("Programlama dili boş olamaz");
+		}
+		if(language.getId()<=0) {
+			throw new Exception("ID sıfırdan büyük olmaladır");
+		}
 		for (int i = 0; i < this.languages.size(); i++) {
 			if (languages.get(i).getLanguageName().equals(language.getLanguageName())) {
 				throw new Exception("Girdiğiniz programlama dili mevcut");
@@ -55,6 +61,12 @@ public class InMemoryLanguageRepository implements LanguageRepository {
 
 	@Override
 	public void update(Language language) throws Exception {
+		if(language.getLanguageName().equals("")||language.getLanguageName().equals(null)) {
+			throw new Exception("Programlama dili boş olamaz");
+		}
+		if(language.getId()<=0) {
+			throw new Exception("ID sıfırdan büyük olmaladır");
+		}
 		for (int i = 0; i < this.languages.size(); i++) {
 			if (languages.get(i).getLanguageName().equals(language.getLanguageName())) {
 				throw new Exception("Girdiğiniz programlama dili mevcut");
