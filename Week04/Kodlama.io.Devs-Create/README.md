@@ -12,3 +12,6 @@ Req 1 : Sistemde programlama dilleri tutulmalıdır.
 - İsimler tekrar edemez.
 
 - Programlama dili boş geçilemez. (Validation kullanmadan, kod yazarak algoritmik çözünüz)
+
+
+![week4](./img/week4.png)
