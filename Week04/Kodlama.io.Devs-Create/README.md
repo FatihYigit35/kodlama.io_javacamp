@@ -13,5 +13,4 @@ Req 1 : Sistemde programlama dilleri tutulmalıdır.
 
 - Programlama dili boş geçilemez. (Validation kullanmadan, kod yazarak algoritmik çözünüz)
 
-
 ![week4](./img/week4.png)
