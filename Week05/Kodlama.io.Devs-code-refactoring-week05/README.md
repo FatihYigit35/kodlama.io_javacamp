@@ -17,3 +17,18 @@ Req 1 : Sistemde programlama dilleri tutulmalıdır.
 - Programlama dili boş geçilemez. (Validation kullanmadan, kod yazarak algoritmik çözünüz)
 
 ![week4](./img/week4.png)
+
+## 
+
+<img src="./img/logo-java-clipart.png" width="40"> **Kampın 5. Haftası:**
+
+Req 2 : Sisteme programlama dillerine ait alt teknolojiler eklenebilmeli, silinebilmeli. güncellenebilmeli, listelenebilmelidir.
+
+Örneğin; 
+- Java : Spring, JSP.
+- C#: WPF, ASP.NET ,
+- JavaScript : Vue, React
+
+![week5](./img/week5.png)
+![week5](./img/week5-db1.png)
+![week5](./img/week5-db2.png)
